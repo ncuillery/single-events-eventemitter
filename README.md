@@ -1,4 +1,5 @@
 # single-events-eventemitter
+[![Build Status](https://travis-ci.org/ncuillery/single-events-eventemitter.png)](https://travis-ci.org/ncuillery/single-events-eventemitter)
 
 When you have to use the [Node.js event API](https://nodejs.org/api/events.html), you have to
 create an instance of `EventEmitter`. If a module B has to listen event emitted from module A, you
