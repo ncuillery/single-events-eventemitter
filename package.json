@@ -1,0 +1,27 @@
+{
+  "name": "single-events-eventemitter",
+  "version": "0.1.0",
+  "description": "Simple instance of the Node.js EventEmitter, available as singleton through your whole app.",
+  "main": "lib/main.js",
+  "scripts": {
+    "test": "./node_modules/nodeunit/bin/nodeunit test/main.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ncuillery/single-events-eventemitter.git"
+  },
+  "keywords": [
+    "events",
+    "eventemitter",
+    "singleton"
+  ],
+  "author": "Nicolas Cuillery <nicolas.cuillery@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncuillery/single-events-eventemitter/issues"
+  },
+  "homepage": "https://github.com/ncuillery/single-events-eventemitter",
+  "devDependencies": {
+    "nodeunit": "^0.9.1"
+  }
+}
